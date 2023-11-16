@@ -1,0 +1,66 @@
+body 
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/cover.jpg);
+}
+
+.container 
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 13px rgba(0, 0, 0, 0.1);
+}
+
+#app 
+{
+    margin-top: 20px;
+}
+
+input[type="text"] 
+{
+    padding: 8px;
+}
+
+button 
+{
+    padding: 10px 16px;
+    background-color: #41af45;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul /*This is for the list of to-do's*/
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li /*This is for the list of to-do's*/
+{
+    background-color: #ececec;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn 
+{
+    background-color: #ff4d4d;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
