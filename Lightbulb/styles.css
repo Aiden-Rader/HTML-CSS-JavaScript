@@ -1,0 +1,86 @@
+body 
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ccc;
+}
+
+.container 
+{
+    text-align: center;
+}
+
+#lightbulb
+{
+    width: 100px;
+    height: 150px;
+    background-color: #d1aa0f;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease;
+}
+
+#lightbulb.on 
+{
+    background-color: #fffc49;
+    box-shadow: 0 0 50px 10px #fffd97;
+}
+
+.switch {
+    position: sticky;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input
+{
+    display: none;
+}
+
+.slider 
+{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before 
+{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider 
+{
+    background-color: rgb(33, 243, 68);
+}
+
+input:checked+.slider:before
+{
+    transform: translateX(26px);
+}
+
+#switchText 
+{
+    margin-top: 40px;
+
+}
