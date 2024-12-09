@@ -1,0 +1,36 @@
+# Log files
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+*.bak
+*.tmp
+*.swp
+
+# Environment configuration files
+.env
+
+# Cache files
+.cache/
+*.cache
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Ignore generated files
+*.min.css
+*.min.js
+*.map
